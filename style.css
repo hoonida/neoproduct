@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
 } 
 
 .big {
-	letter-spacing: -8px;
+	letter-spacing: 0px;
 	line-height: 1.2;
 	word-spacing: 8px;
 }
@@ -176,9 +176,9 @@ nav li {
 section h2 {
 	position: absolute;
 	top: 20px;
-	right: 10px;
+	right: 20px;
 	line-height: 1.2;
-	font-size: 50px;
+	font-size: 45px;
 	writing-mode: vertical-rl;
 	height: 30svh;
 }
@@ -235,7 +235,7 @@ video  {
 .howto {
 	top: 50svh;
 	left: 0;
-	font-size: 26px;
+	font-size: 24px;
 	line-height: 1.5;
 	z-index: 2;
 }
@@ -257,21 +257,23 @@ video  {
 
 .inst {
 	right: 50px;
-	height: 37.5svh;
-	letter-spacing: -3px;
+	height: 42svh;
+	letter-spacing: -1px;
 	word-spacing: 6px;
 }
 
 .anno {
+	top: 24px;
 	left: 20px;
 	font-size: 16px;
+	word-spacing: 6px;
 }
 
 .gori {
+	font-size: 18px;
 	position: relative;
-	top: -15px;
-	right: -14px;
-	margin-bottom: -10px;
+	right: -8px;
+	margin-top: 3px;
 }
 
 .ddd {
@@ -410,6 +412,11 @@ li {
 	right: 20px;
 }
 
+.en #mft h2,
+.en #epi h2 {
+	margin-left: -20px;
+}
+
 .ns {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -417,4 +424,24 @@ li {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+
+.anno:hover {
+	opacity: 50%;
+}
+
+@media screen and (max-width: 900px) {
+
+	.inst .ns {
+		letter-spacing: -2px;
+		word-spacing: 8px;
+		line-height: -0.2;
+	} 
+
+	.big {
+		letter-spacing: -5px;
+		line-height: 0.5;
+		word-spacing: 8px;
+	}
 }
