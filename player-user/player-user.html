@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>플레이어 사용 매뉴얼</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+	<style>
+		* { margin: 0; padding: 0; box-sizing: border-box; font-family: "Pretendard Variable", Pretendard, Helvetica, sans-serif; word-break: keep-all; }
+		body { background: #efefef; color: #000; }
+		main { max-width: 760px; margin: 0; padding: 40px 16px 80px; }
+		.logo { width: 120px; margin-bottom: 30px; }
+		h1 { font-size: 64px; padding-bottom: 20px; }
+		h2 { font-size: 48px; padding-top: 20px; margin: 40px 0 20px; border-top: 2px solid #000; }
+		h3 { font-size: 40px; margin: 30px 0 10px; }
+		.tip h3 { font-size: 20px; }
+		p { font-size: 18px; line-height: 1.6; margin-bottom: 12px; cursor: zoom-in; transition: font-size 0.2s; }
+		p.zoom { font-size: 28px; cursor: zoom-out; }
+		code { font-family: Menlo, monospace; font-size: 0.9em; background: #fff; padding: 1px 5px; }
+		img.photo { display: block; width: 100%; height: auto; margin: 16px 0 24px; }
+		hr { border: 0; border-top: 2px solid #000; margin: 40px 0; }
+		.tip { background: #fff; padding: 20px; margin-bottom: 16px; }
+		.qr { display: block; width: 280px; max-width: 100%; margin: 16px 0 8px; }
+		.related { display: flex; flex-wrap: wrap; gap: 24px; }
+		.related strong { font-size: 18px; }
+		.related a { color: #000; font-size: 14px; word-break: break-all; }
+		.tip p:last-child { margin-bottom: 0; }
+		.mark { position: relative; }
+		.mark .ring { position: absolute; width: 9%; aspect-ratio: 1; transform: translate(-50%, -50%); border: 3px solid #000; border-radius: 50%; box-shadow: 0 0 0 2px #fff; }
+		.mark .label { position: absolute; transform: translateY(-50%); background: #000; color: #fff; font-size: 14px; font-weight: bold; padding: 2px 8px; }
+	</style>
+</head>
+<body>
+<main>
+	<a href="../index.html"><img class="logo" src="../img/neo_logo_icon.png" alt="NEO Product"></a>
+
+	<h1>플레이어 (NEO Product) 사용 매뉴얼</h1>
+
+	<h2>켜기</h2>
+
+	<h3>1. 전원 켜기</h3>
+	<p>빨간 버튼을 손가락으로 '딸깍' 소리가 날 때까지 돌립니다. 그보다 더 돌리면 볼륨이 조정됩니다.</p>
+	<img class="photo" src="img/01.jpg" alt="빨간 버튼을 누르는 장면">
+
+	<h3>2. 액정 확인</h3>
+	<p>대략 23초 뒤 상단의 작고 긴 액정 창에 <code>seek...</code>이 뜹니다.</p>
+	<p><code>[이미지: 액정 창 00000]</code></p>
+	<img class="photo" src="img/02.jpg" alt="액정 창 seek">
+
+	<h2>소리 찾기</h2>
+
+	<h3>3. 휠 돌리기</h3>
+	<img class="photo" src="img/03.jpg" alt="휠을 돌리는 장면">
+	<p>켜고 나서 대략 45초쯤 기다린 뒤, 큰 원형의 빨간 휠을 돌립니다. 라디오 주파수를 맞추듯이 돌리면 노이즈가 납니다.</p>
+	<p>계속 돌리면 '띵' 소리와 함께 액정 창에 주소가 뜨고, 몽환적인 소리가 나는 구간이 나옵니다. 이때 볼륨을 적당히 맞춥니다.</p>
+	<img class="photo" src="img/04.jpg" alt="휠과 버튼 클로즈업">
+
+	<h3>4. 장소의 주소가 뜨는 구간은 3곳</h3>
+	<p>사라져 가는 공간의 주소는 모두 3곳에 있습니다.</p>
+	<img class="photo" src="img/05.jpg" alt="액정 창에 뜬 주소">
+	<img class="photo" src="img/06.jpg" alt="액정 창을 가까이 바라보는 장면">
+	<p>작은 액정 화면 쪽으로 점점 가까이 가면서 바라보고 있으면 소리는 아주 천천히 원래 소리가 돌아온다.</p>
+	<p>(30초 이상 걸린다. 일부러 본래의 소리시간성으로 돌아오는 데 시간이 걸리게 하는 게 의도)</p>
+
+	<hr>
+
+	<div class="tip">
+		<h3>VIP 시연 팁</h3>
+		<p>손님이 오기 5분 전쯤 전원만 미리 켜 두세요. (30분 전에도 OK) 50초 뒤 소리가 제대로 나는지 확인하고 볼륨만 줄여 두면 시연할 때 편합니다.<br>평소에는 전원 오프.</p>
+	</div>
+
+	<div class="tip">
+		<h3>전원 확인 LED</h3>
+		<p>전원이 들어왔는지 확인하려면 아래의 파란색 부분을 확인하세요. (배터리 잔량이 LED 칸으로 표시됨.)</p>
+	</div>
+	<figure class="mark">
+		<img class="photo" src="img/07.jpg" alt="빨간 디스크와 푸른빛 기기">
+		<span class="ring" style="left: 58.7%; top: 77.6%;"></span>
+		<span class="label" style="left: 64%; top: 77.6%;">LED</span>
+	</figure>
+
+	<h2>관련 페이지</h2>
+	<div class="related">
+		<div>
+			<strong>NEO Product</strong>
+			<a href="https://hoonida.com/neoproduct/index.html"><img class="qr" src="img/qr-neoproduct.png" alt="NEO Product 페이지 QR 코드"></a>
+			<a href="https://hoonida.com/neoproduct/index.html">hoonida.com/neoproduct</a>
+		</div>
+		<div>
+			<strong>영상</strong>
+			<a href="https://vimeo.com/1108973929"><img class="qr" src="img/qr-vimeo.png" alt="Vimeo 영상 QR 코드"></a>
+			<a href="https://vimeo.com/1108973929">vimeo.com/1108973929</a>
+		</div>
+	</div>
+</main>
+<script>
+	document.querySelectorAll('main p').forEach(p => p.addEventListener('click', () => p.classList.toggle('zoom')));
+</script>
+</body>
+</html>
