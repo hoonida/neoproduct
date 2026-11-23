@@ -4,10 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>플레이어 사용 매뉴얼</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
 	<style>
-		* { margin: 0; padding: 0; box-sizing: border-box; font-family: "Pretendard Variable", Pretendard, Helvetica, sans-serif; word-break: keep-all; }
-		body { background: #efefef; color: #000; }
+		* { margin: 0; padding: 0; box-sizing: border-box; font-family: "Noto Sans", sans-serif; word-break: keep-all; }
+		body { background: #efefef; color: #000; font-weight: 600; }
 		main { max-width: 760px; margin: 0; padding: 40px 16px 80px; }
 		.logo { width: 120px; margin-bottom: 30px; }
 		h1 { font-size: 64px; padding-bottom: 20px; }
@@ -20,6 +22,10 @@
 		img.photo { display: block; width: 100%; height: auto; margin: 16px 0 24px; }
 		hr { border: 0; border-top: 2px solid #000; margin: 40px 0; }
 		.tip { background: #fff; padding: 20px; margin-bottom: 16px; }
+		.intro .lead { font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+		.intro details { margin-top: 16px; }
+		.intro summary { cursor: pointer; font-size: 16px; text-decoration: underline; margin-bottom: 12px; }
+		.intro details[open] summary { margin-bottom: 16px; }
 		.qr { display: block; width: 280px; max-width: 100%; margin: 16px 0 8px; }
 		.related { display: flex; flex-wrap: wrap; gap: 24px; }
 		.related strong { font-size: 18px; }
@@ -35,6 +41,19 @@
 	<a href="../index.html"><img class="logo" src="../img/neo_logo_icon.png" alt="NEO Product"></a>
 
 	<h1>플레이어 (NEO Product) 사용 매뉴얼</h1>
+
+	<div class="intro">
+		<p class="lead">노이즈 속에서 주파수를 맞추고 대상을 관찰하는 일.</p>
+		<p class="lead">붙잡을 수 없는 것을 붙잡고 싶은 마음.</p>
+		<details>
+			<summary>작품 소개 펼치기</summary>
+			<p>후니다 킴은 개발로 인해 곧 사라질 것 같은 지역의 소리를 기록한다. 그리고 그 소리를 담을 '플레이어'를 만든다. 그러나 그것은 단지 소리를 기록하고 재생하는 장치가 아니다. 일상 속에 놓이는 기기의 형식을 빌리되, 그것이 사용자에게 요구하는 것은 소비가 아니라 사유다. 작가는 이 〈플레이어〉를 사유체(思惟體)로서의 새로운 프로덕트로 제안한다.</p>
+			<p>옛 라디오를 다루듯 다이얼을 돌리면, 화이트 노이즈 속에서 희미하게 드러나는 소리들을 찾는다. 주파수가 맞으면 하나의 몽환적인 음악같은 소리가 들려온다. 그와 동시에 화면에는 어느장소의 주소가 떠오른다. 가까이 다가가 그 주소를 읽으며 머무를수록, 조금씩 소리는 점점 구체적인 모습으로 다가온다.</p>
+			<p>그 몽환적인 음률은 도시 발전에 의해 빠르게 지워져 가는 지역의 소리이다. 사라짐의 아쉬움을 담아 기록한 그 시간성을 엿가락처럼 길게 늘여 재생시킨 것이다. 별다른 의식 없이 주파수만 맞추어 듣는다면, 그저 몽환적인 소리를 들려주는 장치처럼 보인다. 그러나 의식을 기울여 능동적으로 관조하려고 할때, 그 표면 아래에 있는 본래의 소리와 만나게 된다.</p>
+			<p>노이즈 속에서 주파수를 맞추고, 음을 찾아내고, 다시 그 본질에 찾아가는 것은 다양한 변화 속에서 끊임없이 자신을 조정하고 적응해야 하는 지금의 우리의 모습과 닮아 있다.</p>
+			<p>〈플레이어〉를 사용하다 보면, 지금의 기술 환경 속에서 우리가 얻는 것과 잃어버리는 것에 대한 생각이 맴돈다.</p>
+		</details>
+	</div>
 
 	<h2>켜기</h2>
 
